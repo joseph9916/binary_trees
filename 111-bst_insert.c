@@ -50,4 +50,5 @@ bst_t *bst_insert(bst_t **tree, int value)
 			present_node = present_node->left;
 		}
 	}
+	return (new_node);
 }
